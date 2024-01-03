@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(250, 180, 90);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#input {
+  background-color: aquamarine;
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border: 10px solid blue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.counttag {
+  padding: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background-color: rgb(255, 34, 0);
+  color: white;
+  border: none;
+}
+
+#message {
+  font-size: 25px;
+  font-weight: 600;
+}
